@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.h1{
+    color:aqua;
+}
+.contenido{
+   background-color: none;
+}
+.navbar2{
+    height: 30px;
+}
+
+.navbarsito{
+    background-color:none;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #d4d4d4;
+    border-width: 1px;
+    
+}
+.logo{
+    height: 80px;
+}
+#header{
+    margin: auto;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 80px;
+    border-width: 140px;
+
+}
+ul, ol{
+    list-style: none;
+}
+.navi{
+    font-size:27px;
+}
+.navi li a{
+
+    background-color:none;
+    color:black;
+    padding: 0px 10px;
+    text-decoration: none;
+    line-height: 80px;
+    height: 80px;
+    display: block;
+    
+}
+.navi li a:hover{
+    background-color: pink;
+}
+.navi > li{
+    float: left;
+}
+.navi li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    font-size: 25px;
+}
+.navi li:hover > ul{
+    display: block;
+}
+.navi li ul li{
+    background-color:white;
+    color: black;
+}
+.navi li ul li:hover{
+    background-color: pink;
+}
+.field {
+    display:flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .field>input[type=text],
+  .field> #search{
+    height: 30px;
+  }
+#search {
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color:black;
+    
+    line-height: 30px;
+  }
+#search:hover{
+    background-color: pink;
+    color: white;
+}
+.zapato{
+    background:url(/images/zapato.jpg);
+    height:calc(100% - 80px);
+    z-index: -1000;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position-x: center;
+
+}
+#compra{
+    position: absolute;
+    top: 600px;
+    margin-left: 22px;
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    font-family:cursive;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#compra:hover{
+    color: slategrey;
+
+    
+}
